@@ -25,7 +25,7 @@ g++ -std=c++11 src/CA1/38_CAP455_Phase1_Mueseum_visitor_flow_counter.cpp -o buil
 Run (Windows):
 
 ```powershell
-.\build\Museum_Visitor_Flow_Counter.exe
+.\build\38_CAP455_Phase1_Mueseum_visitor_flow_counter.exe
 ```
 
 ## Current Phase
