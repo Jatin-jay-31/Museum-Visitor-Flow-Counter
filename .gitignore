@@ -1,0 +1,22 @@
+
+# Executable files
+*.exe
+
+# Build directory
+build/
+
+# Object files
+*.o
+*.obj
+
+# Debug/build output
+*.out
+*.pdb
+*.ilk
+
+# VS Code local settings (optional)
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
