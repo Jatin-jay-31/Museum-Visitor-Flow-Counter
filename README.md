@@ -5,30 +5,48 @@ A C++ console-based project developed for the CAP455 Object-Oriented Programming
 ## Features
 - Add visitor movement records (ENTRY/EXIT).
 - View all movement records.
+- Search records using record ID.
+- Update existing records.
 - Prevent duplicate record IDs.
 - Validate visitor details and visitor counts.
 - Display the current visitor count.
+- Save records permanently using binary file handling.
 
 ## Technologies
 - C++
 - GCC Compiler
 - Visual Studio Code
+- File Handling (`fstream`)
 
 ## How to Run
 
+### CA1
+
 Compile:
-
 ```bash
-g++ -std=c++11 src/CA1/38_CAP455_Phase1_Mueseum_visitor_flow_counter.cpp -o build/Museum_Visitor_Flow_Counter.exe
+g++ -std=c++11 src/CA1/38_CAP455_Phase1_Mueseum_visitor_flow_counter.cpp -o MuseumVisitorCA1.exe
 ```
 
-Run (Windows):
+### CA2
 
+Open the `src/CA2` folder in the terminal.
+
+Compile:
+```bash
+g++ -std=c++11 -Wall -Wextra 38_CAP455_Phase2_Mueseum_visitor_flow_counter.cpp -o MuseumVisitorCA2.exe
+```
+
+Run:
 ```powershell
-.\build\38_CAP455_Phase1_Mueseum_visitor_flow_counter.exe
+.\MuseumVisitorCA2.exe
 ```
+
+## Data Storage
+CA1 stores records in memory, while CA2 uses a binary file named `visitor_records.dat` to save records permanently.
 
 ## Current Phase
-**CA1:** Uses an array of 50 objects and stores records in memory. Data is not saved after the program exits.
+- **CA1:** Completed – Basic visitor management using an array of objects.
+- **CA2:** Completed – File handling, searching, updating and permanent data storage.
 
-Further features will be added in the upcoming phases.
+## Test Results
+Test results for both phases are available in the `tests` folder.
