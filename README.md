@@ -24,7 +24,7 @@ A C++ console-based project developed for the CAP455 Object-Oriented Programming
 
 Compile:
 ```bash
-g++ -std=c++11 src/CA1/38_CAP455_Phase1_Mueseum_visitor_flow_counter.cpp -o MuseumVisitorCA1.exe
+g++ -std=c++11 src/CA1/38_CAP455_Phase1_Mueseum_visitor_flow_counter.cpp -o 38_CAP455_Phase1_Mueseum_visitor_flow_counter.exe
 ```
 
 ### CA2
@@ -33,12 +33,12 @@ Open the `src/CA2` folder in the terminal.
 
 Compile:
 ```bash
-g++ -std=c++11 -Wall -Wextra 38_CAP455_Phase2_Mueseum_visitor_flow_counter.cpp -o MuseumVisitorCA2.exe
+g++ -std=c++11 -Wall -Wextra 38_CAP455_Phase2_Mueseum_visitor_flow_counter.cpp -o 38_CAP455_Phase2_Mueseum_visitor_flow_counter.exe
 ```
 
 Run:
 ```powershell
-.\MuseumVisitorCA2.exe
+.\38_CAP455_Phase2_Mueseum_visitor_flow_counter.exe
 ```
 
 ## Data Storage
